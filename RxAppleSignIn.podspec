@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RxAppleSignIn'
   s.version          = '0.1.0'
-  s.summary          = 'RxSwift extension fot apple sign in.'
+  s.summary          = 'RxSwift extension'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "RxSwift extension fot apple sign in"
+  s.description      = "RxSwift extension for apple sign in."
 
   s.homepage         = 'https://github.com/Pumpkin-SweetPotato/RxAppleSignIn'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,11 +30,15 @@ Pod::Spec.new do |s|
 
   s.source_files = 'RxAppleSignIn/Classes/**/*'
   
+  s.swift_version = '5.0'
+  
   # s.resource_bundles = {
   #   'RxAppleSignIn' => ['RxAppleSignIn/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'AuthenticationServices', 'RxSwift', 'RxCocoa'
-   s.dependency   'RxSwift', '~> 5', 'RxCocoa', '~> 5'
+  s.ios.framework = 'AuthenticationServices'
+  
+  s.dependency 'RxSwift', '~> 5'
+  s.dependency 'RxCocoa', '~> 5'
 end

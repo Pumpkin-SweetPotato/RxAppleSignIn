@@ -3,6 +3,7 @@ platform :ios, '13.0'
 target 'RxAppleSignIn Example' do
   use_frameworks!
   
+  pod 'RxAppleSignIn', :path => '../'
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
   

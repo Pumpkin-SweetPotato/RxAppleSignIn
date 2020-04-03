@@ -22,7 +22,7 @@ pod 'RxAppleSignIn'
 
 ## Author
 
-Minsoo Kim, minsoo@eazel.net
+Minsoo Kim, vibrio0102@gmail.com
 
 ## License
 
