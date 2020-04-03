@@ -1,0 +1,6 @@
+framework module RxAppleSignIn {
+  umbrella header "RxAppleSignIn-umbrella.h"
+
+  export *
+  module * { export * }
+}
