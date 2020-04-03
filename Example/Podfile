@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'RxAppleSignIn_Example' do
+  pod 'RxAppleSignIn', :path => '../'
+
+  target 'RxAppleSignIn_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 1.2.0'
+    pod 'Nimble', '~> 7.0'
+  end
+end
