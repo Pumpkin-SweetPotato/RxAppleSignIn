@@ -1,0 +1,6 @@
+framework module Pods_RxAppleSignIn_Example {
+  umbrella header "Pods-RxAppleSignIn_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
