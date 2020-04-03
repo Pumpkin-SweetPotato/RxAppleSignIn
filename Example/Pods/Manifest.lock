@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
+  - RxAppleSignIn (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2.0)
+  - RxAppleSignIn (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  RxAppleSignIn:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  RxAppleSignIn: df8bb266ee576adcc6a9ad5a9cfcf0b6c1267c3a
+
+PODFILE CHECKSUM: e31612c293d99385b06e4bfbd146a64577c563e4
+
+COCOAPODS: 1.9.1

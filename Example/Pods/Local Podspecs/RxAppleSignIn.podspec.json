@@ -1,0 +1,22 @@
+{
+  "name": "RxAppleSignIn",
+  "version": "0.1.0",
+  "summary": "A short description of RxAppleSignIn.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Minsoo Kim/RxAppleSignIn",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Minsoo Kim": "minsoo@eazel.net"
+  },
+  "source": {
+    "git": "https://github.com/Minsoo Kim/RxAppleSignIn.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RxAppleSignIn/Classes/**/*"
+}
