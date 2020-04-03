@@ -1,9 +1,12 @@
-use_frameworks!
+platform :ios, '13.0'
 
-target 'RxAppleSignIn_Example' do
-  pod 'RxAppleSignIn', :path => '../'
-
-  target 'RxAppleSignIn_Tests' do
+target 'RxAppleSignIn Example' do
+  use_frameworks!
+  
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  
+  target 'RxAppleSignIn Tests' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.2.0'

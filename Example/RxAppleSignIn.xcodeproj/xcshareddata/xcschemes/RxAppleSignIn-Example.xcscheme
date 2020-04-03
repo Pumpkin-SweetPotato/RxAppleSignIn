@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "RxAppleSignIn_Example.app"
-               BlueprintName = "RxAppleSignIn_Example"
+               BuildableName = "Example.app"
+               BlueprintName = "RxAppleSignIn Example"
                ReferencedContainer = "container:RxAppleSignIn.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "RxAppleSignIn_Tests.xctest"
-               BlueprintName = "RxAppleSignIn_Tests"
+               BuildableName = "RxAppleSignIn Tests.xctest"
+               BlueprintName = "RxAppleSignIn Tests"
                ReferencedContainer = "container:RxAppleSignIn.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,37 +40,33 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+            BuildableName = "Example.app"
+            BlueprintName = "RxAppleSignIn Example"
+            ReferencedContainer = "container:RxAppleSignIn.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "RxAppleSignIn_Tests.xctest"
-               BlueprintName = "RxAppleSignIn_Tests"
+               BuildableName = "RxAppleSignIn Tests.xctest"
+               BlueprintName = "RxAppleSignIn Tests"
                ReferencedContainer = "container:RxAppleSignIn.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "RxAppleSignIn_Example.app"
-            BlueprintName = "RxAppleSignIn_Example"
-            ReferencedContainer = "container:RxAppleSignIn.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -82,13 +78,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "RxAppleSignIn_Example.app"
-            BlueprintName = "RxAppleSignIn_Example"
+            BuildableName = "Example.app"
+            BlueprintName = "RxAppleSignIn Example"
             ReferencedContainer = "container:RxAppleSignIn.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -101,8 +95,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "RxAppleSignIn_Example.app"
-            BlueprintName = "RxAppleSignIn_Example"
+            BuildableName = "Example.app"
+            BlueprintName = "RxAppleSignIn Example"
             ReferencedContainer = "container:RxAppleSignIn.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
